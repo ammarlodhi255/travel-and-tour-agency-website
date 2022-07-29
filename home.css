@@ -1,6 +1,6 @@
 * {
     font-family: 'Open Sans',
-        sans-serif;;
+        sans-serif;
 }
 
 .navbar {
@@ -9,8 +9,8 @@
 
 .navbar-collapse {
     position: fixed;
-    left: 65%;
-    top: 0%;
+    left: 63%;
+    top: 1%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -28,14 +28,41 @@
 }
 
 .my-carousel .carousel-item {
-    height: 600px;
+    height: 800px;
 }
 
 .carousel-item img {
     position: absolute;
     top: 0;
     left: 0;
-    min-height: 600px;
+    min-height: 800px;
 }
 
+.services-text {
+    font-size: 2.5rem;
+}
 
+.service {
+    height: 100px;
+    border-radius: 20%;
+    background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+}
+
+.service-card:hover {
+    color: white;background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+    cursor: pointer;
+}
+
+.service-card {
+    border: 0px solid transparent;
+    border-radius: 5%;
+    background-color: rgb(90,
+        142,
+        163);
+}
+
+@media screen and (max-width: 770px) {
+    .service-card {
+        margin-top: 20px;
+    }
+}
