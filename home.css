@@ -4,7 +4,19 @@
 }
 
 .navbar {
-    z-index: 150;
+    z-index: 150;   
+}
+
+.navbar-collapse {
+    position: fixed;
+    left: 65%;
+    top: 0%;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-collapse {
+        left: 50%;
+    }
 }
 
 .nav-link:hover {
@@ -13,7 +25,6 @@
 
 .my-carousel {
     margin-top: -80px;
-    
 }
 
 .my-carousel .carousel-item {
