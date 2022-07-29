@@ -48,12 +48,15 @@
     background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
 }
 
-.service-card:hover {
-    color: white;background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+.service-card :hover {
+    color: black;
+    border-radius: 5%;
+    background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
     cursor: pointer;
 }
 
 .service-card {
+    color: white;
     border: 0px solid transparent;
     border-radius: 5%;
     background-color: rgb(90,
@@ -65,4 +68,12 @@
     .service-card {
         margin-top: 20px;
     }
+}
+
+.img {
+    background-image: url("./travel-svgrepo-com.svg");
+    height: 30px;
+    width: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
