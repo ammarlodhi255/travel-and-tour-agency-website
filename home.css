@@ -38,7 +38,7 @@
     min-height: 800px;
 }
 
-.services-text {
+.services-text, .packages-text {
     font-size: 2.5rem;
 }
 
@@ -76,4 +76,63 @@
     width: 30px;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.package {
+    border-radius: 5%;
+}
+
+.btn-book:hover {
+    background-image: linear-gradient(to right, #4ca1af, #c4e0e5);
+    cursor: pointer;
+    color: black;
+}
+
+.btn-book {
+    background-color: rgb(90,
+            142,
+            163);
+    color: white;
+}
+
+.footer {
+    background: url(../images/footer-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.footer .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 3rem;
+}
+
+.footer .box-container .box h3 {
+    color: var(--white);
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.footer .box-container .box a {
+    color: var(--light-white);
+    font-size: 1rem;
+    padding-bottom: 1rem;
+    display: block;
+}
+
+.footer .box-container .box a i {
+    color: rgb(90,
+            142,
+            163);;
+    padding-right: .5rem;
+    transition: .2s linear;
+}
+
+.footer .box-container .box a:hover i {
+    padding-right: 2rem;
+}
+
+.box {
+    margin-top: 40px;
 }
