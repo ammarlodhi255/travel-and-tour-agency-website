@@ -56,7 +56,7 @@
     font-family: 'Mouse Memoirs', sans-serif;
 }
 
-.camppic {
+.pic {
     width: 300px;
     height: 300px;
     margin-left: 60px;
@@ -112,4 +112,27 @@
 .layer:hover h3 {
     bottom: 48%;
     opacity: 1;
+}
+
+.activity-detail {
+    margin-top: 50px;
+    padding-left: 53px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.2rem;
+}
+
+.activity1 {
+    margin-left: 135px;
+    background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/06/13/ed/89/danforth-bay-camping.jpg');
+    background-size: cover;
+}
+
+.activity2 {
+    background-image: url('https://hipcamp-res.cloudinary.com/image/upload/c_fill,f_auto,g_auto,h_400,q_60,w_780/v1/ycamp_images/photos/5e97e2ab225af.jpg');
+    background-size: cover;
+}
+
+.activity3 {
+    background-image: url('http://kilcoo.com/wp-content/uploads/2016/09/Rock-Climbing.jpeg');
+    background-size: cover;
 }
