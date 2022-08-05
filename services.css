@@ -45,7 +45,6 @@
 
 .tour {
     background-image: url('./images/tourguide.Svg');
-    padding-right: 200px;
 }
 
 .camp-detail {
@@ -141,5 +140,22 @@
 
 .activity3 {
     background-image: url('http://kilcoo.com/wp-content/uploads/2016/09/Rock-Climbing.jpeg');
+    background-size: cover;
+}
+
+.tourpic1 {
+    margin-left: 135px;
+    padding-bottom: 100px;
+    background-image: url('https://coda.newjobs.com/api/imagesproxy/ms/niche/images/articles/Liz/TourGuide.jpg');
+    background-size: cover;
+}
+
+.tourpic2 {
+    background-image: url('https://www.traveldailymedia.com/assets/2019/10/myproguide-singapore-walking-tour-1024x768.jpg');
+    background-size: cover;
+}
+
+.tourpic3 {
+    background-image: url('https://media.istockphoto.com/photos/guide-talking-to-tourists-picture-id1140615664?k=20&m=1140615664&s=612x612&w=0&h=NZXXJj_MXfGjZ1iJSoYn4A8vcxHjhkiHzt45uWJgm_Y=');
     background-size: cover;
 }
