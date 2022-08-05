@@ -169,3 +169,19 @@
     background-image: url('https://media.istockphoto.com/photos/guide-talking-to-tourists-picture-id1140615664?k=20&m=1140615664&s=612x612&w=0&h=NZXXJj_MXfGjZ1iJSoYn4A8vcxHjhkiHzt45uWJgm_Y=');
     background-size: cover;
 }
+
+.track1 {
+    margin-left: 135px;
+    background-image: url('https://media.istockphoto.com/photos/friends-sitting-on-grass-and-looking-at-map-on-camping-trip-picture-id843909252?k=20&m=843909252&s=612x612&w=0&h=7FI1WW4TuayjSOs7XAmaITtGJmFkkYkB1qcAZXSJsTM=');
+    background-size: cover;
+}
+
+.track2 {
+    background-image: url('https://www.traveldailymedia.com/assets/2019/10/myproguide-singapore-walking-tour-1024x768.jpg');
+    background-size: cover;
+}
+
+.track3 {
+    background-image: url('https://media.istockphoto.com/photos/guide-talking-to-tourists-picture-id1140615664?k=20&m=1140615664&s=612x612&w=0&h=NZXXJj_MXfGjZ1iJSoYn4A8vcxHjhkiHzt45uWJgm_Y=');
+    background-size: cover;
+}
