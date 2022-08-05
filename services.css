@@ -81,3 +81,13 @@
 .layer:hover {
     background: rgba(226, 0, 0, 0.7);
 }
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
