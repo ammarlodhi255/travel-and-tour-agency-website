@@ -28,7 +28,7 @@
     background-size: cover;
 }
 
-.camp {
+.service {
     background-image: url('./images/CampingLifeSVGCutFile.Svg');
     background-size: cover;
     height: 500px;
@@ -40,4 +40,28 @@
     padding-left: 100px;
     font-family: 'Mouse Memoirs', sans-serif;
     font-size: 1.2rem;
+}
+
+.camppic {
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.camppic1 {
+    margin-left: 135px;
+    background-image: url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtcGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-size: cover;
+}
+
+.camppic2 {
+    background-image: url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtcGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-size: cover;
+}
+
+.camppic3 {
+    background-image: url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtcGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-size: cover;
 }
