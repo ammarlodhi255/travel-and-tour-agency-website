@@ -24,6 +24,13 @@
 }
 
 .navbar {
-    background-image: url('./images/navpic.jpg');
+    background-image: url('./images/navpic.png');
     background-size: cover;
+}
+
+.camp {
+    background-image: url('./images/CampingLifeSVGCutFile.Svg');
+    background-size: cover;
+    height: 500px;
+    width: 500px;
 }
