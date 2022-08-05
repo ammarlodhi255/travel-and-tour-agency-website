@@ -34,3 +34,10 @@
     height: 500px;
     width: 500px;
 }
+
+.camp-detail {
+    margin-top: 100px;
+    padding-left: 100px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 1.2rem;
+}
