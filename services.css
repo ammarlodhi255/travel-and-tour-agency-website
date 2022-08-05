@@ -40,6 +40,12 @@
 
 .activity {
     background-image: url('./images/activities.Svg');
+    margin-left: 70px;
+}
+
+.tour {
+    background-image: url('./images/tourguide.Svg');
+    padding-right: 200px;
 }
 
 .camp-detail {
@@ -123,6 +129,7 @@
 
 .activity1 {
     margin-left: 135px;
+    padding-bottom: 100px;
     background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/06/13/ed/89/danforth-bay-camping.jpg');
     background-size: cover;
 }
