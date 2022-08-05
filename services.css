@@ -1,0 +1,29 @@
+* {
+    font-family: 'Open Sans',
+        sans-serif;
+}
+
+.navbar {
+    z-index: 150;
+}
+
+.navbar-collapse {
+    position: fixed;
+    left: 63%;
+    top: 1%;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar-collapse {
+        left: 50%;
+    }
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid white;
+}
+
+.navbar {
+    background-image: url('./images/navpic.jpg');
+    background-size: cover;
+}
