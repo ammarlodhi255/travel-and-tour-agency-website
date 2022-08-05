@@ -7,12 +7,6 @@
     z-index: 150;
 }
 
-.navbar-collapse {
-    position: fixed;
-    left: 63%;
-    top: 1%;
-}
-
 @media screen and (max-width: 1000px) {
     .navbar-collapse {
         left: 50%;
