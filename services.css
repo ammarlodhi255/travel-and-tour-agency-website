@@ -70,6 +70,7 @@
 
 .layer {
     background: transparent;
+    border-radius: 5px;
     height: 100%;
     width: 100%;
     position: absolute;
@@ -79,15 +80,22 @@
 }
 
 .layer:hover {
-    background: rgba(226, 0, 0, 0.7);
+    background: rgba(226, 0, 0, 0.4);
 }
 
 .layer h3 {
     width: 100%;
     font-weight: 500;
     color: white;
+    opacity: 0;
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
+    transition: 0.5s;
+}
+
+.layer:hover h3 {
+    bottom: 48%;
+    opacity: 1;
 }
