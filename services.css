@@ -48,6 +48,8 @@
     margin-left: 60px;
     margin-top: 20px;
     border-radius: 5px;
+    position: relative;
+    text-align: center;
 }
 
 .camppic1 {
@@ -57,11 +59,25 @@
 }
 
 .camppic2 {
-    background-image: url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtcGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-image: url('https://media.istockphoto.com/photos/couple-sitting-in-camp-chairs-looking-at-sunset-above-river-in-picture-id1262230418?k=20&m=1262230418&s=612x612&w=0&h=cTFF_kSTsdK0UNnXDBF3wft6m4dJFojXKquP9J297bw=');
     background-size: cover;
 }
 
 .camppic3 {
-    background-image: url('https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Y2FtcGluZ3xlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-image: url('https://northernvirginiamag.com/wp-content/uploads/2020/06/couple-camping.jpg');
     background-size: cover;
+}
+
+.layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(226, 0, 0, 0.7);
 }
