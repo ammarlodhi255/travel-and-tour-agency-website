@@ -38,13 +38,20 @@
     background-image: url('./images/CampingLifeSVGCutFile.Svg');
 }
 
+.activity, .track {
+    margin-left: 70px;
+}
+
 .activity {
     background-image: url('./images/activities.Svg');
-    margin-left: 70px;
 }
 
 .tour {
     background-image: url('./images/tourguide.Svg');
+}
+
+.track {
+    background-image: url('./images/track.Svg');
 }
 
 .section {
@@ -177,11 +184,11 @@
 }
 
 .track2 {
-    background-image: url('https://www.traveldailymedia.com/assets/2019/10/myproguide-singapore-walking-tour-1024x768.jpg');
+    background-image: url('https://thumbs.dreamstime.com/b/traveler-catch-cellular-network-use-his-mobile-phone-sitting-tent-mobile-connection-concept-image-traveler-catch-cellular-132502075.jpg');
     background-size: cover;
 }
 
 .track3 {
-    background-image: url('https://media.istockphoto.com/photos/guide-talking-to-tourists-picture-id1140615664?k=20&m=1140615664&s=612x612&w=0&h=NZXXJj_MXfGjZ1iJSoYn4A8vcxHjhkiHzt45uWJgm_Y=');
+    background-image: url('https://media.istockphoto.com/photos/young-hiker-friends-reading-a-map-for-directions-picture-id692495790?k=20&m=692495790&s=612x612&w=0&h=cElhAVlo9nGrfqJjYRjqPRgw5dPekWuPJ-5CknHyfRg=');
     background-size: cover;
 }
