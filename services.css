@@ -188,7 +188,7 @@
 }
 
 .footer {
-    background: url(../images/footer-bg.jpg) no-repeat;
+    background: url('./images/footer-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     color: white;
