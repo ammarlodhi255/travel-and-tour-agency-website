@@ -19,6 +19,7 @@
 body {
     background-color: #D9AFD9;
     background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);;
+    font-family: "Raleway", sans-serif;
 }
 
 .login .close-btn {
@@ -48,5 +49,10 @@ body {
 
 .login .form .login-element label {
     color: #222;
-    font-size: 1rem;
+    font-size: 0.99rem;
+}
+
+.login .form .login-element input[type="text"] {
+    color: #222;
+    font-size: 0.99rem;
 }
