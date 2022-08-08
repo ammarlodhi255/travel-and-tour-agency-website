@@ -34,3 +34,19 @@ body {
     border-radius: 16px;
     cursor: pointer;
 }
+
+.login .form #login-title {
+    text-align: center;
+    color: #222;
+    margin: 11px 0px 21px;
+    font-size: 1.7rem;
+}
+
+.login .form .login-element {
+    margin: 16px 0px;
+}
+
+.login .form .login-element label {
+    color: #222;
+    font-size: 1rem;
+}
