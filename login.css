@@ -52,7 +52,22 @@ body {
     font-size: 0.99rem;
 }
 
+.login .form .login-element input[type="password"] {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 11px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
 .login .form .login-element input[type="text"] {
-    color: #222;
-    font-size: 0.99rem;
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 11px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #aaa;
 }
