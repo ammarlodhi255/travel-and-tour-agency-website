@@ -5,7 +5,7 @@
 }
 
 .login {
-    postion: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -14,4 +14,8 @@
     padding: 20px 30px;
     box-shadow: 2px 2px 6px 6px rgba(0, 0, 0, 0.2);
     border-radius: 11px;
+}
+
+body {
+    background-color: blue;
 }
