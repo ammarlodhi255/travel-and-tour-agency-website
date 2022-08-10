@@ -1,0 +1,23 @@
+.navbar {
+    background-image: url('./images/navpic.png');
+    background-size: cover;
+}
+.description
+{
+
+
+}
+.pricing
+{
+    background-color:cadetblue;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.pricing:hover
+{
+    background-color: green;
+}
