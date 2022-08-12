@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sign-up {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    box-shadow: 2px 2px 6px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 11px;
+    padding: 20px 30px;
+}
+
+body {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family: "Raleway", sans-serif;
+}
+
+.sign-up .close-btn {
+    position: absolute;
+    top: 11px;
+    right: 11px;
+    width: 16px;
+    height: 16px;
+    background: #888;
+    color: #eee;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.sign-up .form #login-title {
+    text-align: center;
+    color: #222;
+    margin: 11px 0px 21px;
+    font-size: 1.7rem;
+}
+
+.sign-up .form .signup-element {
+    margin: 16px 0px;
+}
+
+.sign-up .form .signup-element label {
+    color: #222;
+    font-size: 0.99rem;
+}
+
+.sign-up .form .signup-element input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.sign-up .form .signup-element button {
+    height: 44px;
+    border: none;
+    width: 100%;
+    color: black;
+    outline: none;
+    font-size: 1rem;
+    cursor: pointer;
+    /* background: #222; */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border-radius: 11px;
+}
+.sign-up .form .signup-element a {
+    text-align: right;
+    display: block;
+    font-size: 0.9rem;
+    color: #1a79ca;
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+
+.sign-up .form .signup-element input[type="password"] {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 11px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
+.sign-up .form .signup-element input[type="text"] {
+    margin-top: 5px;
+    display: block;
+    width: 100%;
+    padding: 11px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+
