@@ -38,6 +38,11 @@ h1
     margin-bottom: 10%;   
     width: 100%;
 }
+.text-bold
+{
+    font-weight: bold;
+    font-style: italic;
+}
 body
 {
     background-color: rgb(129, 211, 211);
