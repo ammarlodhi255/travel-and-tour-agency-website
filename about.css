@@ -75,6 +75,13 @@ body {
   align-items: center;
   perspective: 500px;
 }
+.members {
+  display: flex;
+  min-height: 100vh;
+  /* justify-content: center; */
+  align-items: center;
+  /* perspective: 500px; */
+}
 article {
   width: 550px;
   display: flex;
