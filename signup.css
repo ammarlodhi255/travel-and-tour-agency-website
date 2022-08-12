@@ -4,7 +4,7 @@
     padding: 0px;
 }
 
-.login {
+.sign-up {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -22,7 +22,7 @@ body {
     font-family: "Raleway", sans-serif;
 }
 
-.login .close-btn {
+.sign-up .close-btn {
     position: absolute;
     top: 11px;
     right: 11px;
@@ -36,27 +36,27 @@ body {
     cursor: pointer;
 }
 
-.login .form #login-title {
+.sign-up .form #login-title {
     text-align: center;
     color: #222;
     margin: 11px 0px 21px;
     font-size: 1.7rem;
 }
 
-.login .form .login-element {
+.sign-up .form .signup-element {
     margin: 16px 0px;
 }
 
-.login .form .login-element label {
+.sign-up .form .signup-element label {
     color: #222;
     font-size: 0.99rem;
 }
 
-.login .form .login-element input[type="checkbox"] {
+.sign-up .form .signup-element input[type="checkbox"] {
     margin-right: 6px;
 }
 
-.login .form .login-element button {
+.sign-up .form .signup-element button {
     height: 44px;
     border: none;
     width: 100%;
@@ -69,7 +69,7 @@ body {
     background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
     border-radius: 11px;
 }
-.login .form .login-element a {
+.sign-up .form .signup-element a {
     text-align: right;
     display: block;
     font-size: 0.9rem;
@@ -80,7 +80,7 @@ body {
 }
 
 
-.login .form .login-element input[type="password"] {
+.sign-up .form .signup-element input[type="password"] {
     margin-top: 5px;
     display: block;
     width: 100%;
@@ -90,7 +90,7 @@ body {
     border: 1px solid #aaa;
 }
 
-.login .form .login-element input[type="text"] {
+.sign-up .form .signup-element input[type="text"] {
     margin-top: 5px;
     display: block;
     width: 100%;
