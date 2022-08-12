@@ -1,0 +1,25 @@
+.item{
+    transition: .5 ease-in-out;
+}
+.item:hover
+{   
+   filter:brightness(50%)
+}
+.container-fluid
+{
+    width: 80%;
+    height: 40%;
+}
+body
+{
+    background-image: url('./images/navpic.png');
+    background-size: cover;
+}
+.navbar {
+    background-image: url('./images/navpic.png');
+    background-size: cover;
+}
+.container
+{
+    height: 50%;
+}

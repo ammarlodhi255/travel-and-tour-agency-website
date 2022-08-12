@@ -2,11 +2,6 @@
     background-image: url('./images/navpic.png');
     background-size: cover;
 }
-.description
-{
-
-
-}
 .margin-zero
 {
     margin: 0%;
@@ -16,9 +11,9 @@
     width: 100%;
     height: 200px;
 }
-.card-img-top:hover
+.text-size
 {
-
+    font-size: 2rem;
 }
 h1
 {
@@ -35,7 +30,7 @@ h1
     align-items: center;
     border-radius: 10px;
     cursor:pointer;
-    margin-top: 1%;
+    
 }
 .packages
 {
