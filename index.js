@@ -11,7 +11,6 @@ window.onload = () => {
     });
     aboutBtn.addEventListener('click', () => {
         aboutBtn.setAttribute('href', './about.html');
-        console.log('mdjnj');
     });
 }
 
