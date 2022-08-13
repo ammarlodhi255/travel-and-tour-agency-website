@@ -42,14 +42,15 @@ function SearchPackages(searchText) {
   h1.innerText = `Searched text is \'${searchText}\'`;
   container.append(h1);
 
-  let closebtn = document.createElement("Button");
-  closebtn.innerText = "Close";
-  closebtn.classList.add("btn");
-  closebtn.classList.add("btn-book");
-  closebtn.id = "SearchClose";
-  closebtn.style.float = "right";
-  container.append(closebtn);
-  closebtn.onclick = () => {};
+  let searchclosebtn = document.createElement("a");
+  searchclosebtn.innerText = "Close";
+  searchclosebtn.classList.add("btn");
+  searchclosebtn.classList.add("btn-book");
+  searchclosebtn.style.float = "right";
+  searchclosebtn.onclick = ()=> {
+    document.location.reload();
+  };
+  container.append(searchclosebtn);
   container.innerHTML += "<br />";
 
   let divInside = document.createElement("div");
