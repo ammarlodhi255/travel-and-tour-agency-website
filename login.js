@@ -13,9 +13,9 @@ loginBtn.onclick = () => {
   if (email.value === "admin" && password.value === "admin") {
     window.location.href = "./AdminPage.html";
   } else {
-    if (Validate(email.value, password.value)) {
-      let data = `${email.value}(@)${password.value};`;
-      document.cookie = `data=${data};`;
+    let user = Validate(email.value, password.value);
+    if (user) {
+      localStorage.setItem("temp", JSON.stringify(user));
       document.location.href = "./Profile.html";
     } else {
       email.style.border = "1px solid red";
@@ -25,23 +25,14 @@ loginBtn.onclick = () => {
   }
 };
 function Validate(email, password) {
-  let flag = false;
-  var xhr = new XMLHttpRequest();
-  xhr.onreadystatechange = () => {
-    if (xhr.readyState === 4 && xhr.status === 200) {
-      let users = JSON.parse(xhr.responseText).Users;
-      users.forEach(function (item) {
-        let emailUser = item.Email;
-        let passwordUser = item.Password;
-        console.log(emailUser + " : " + password);
-        console.log(emailUser === email);
-        if (emailUser === email && passwordUser === password) {
-          flag = true;
-        }
-      });
+  let user = null;
+  let users = JSON.parse(localStorage.getItem("Users"));
+  users.forEach(function (item) {
+    let emailUser = item.Email;
+    let passwordUser = item.Password;
+    if (emailUser === email && passwordUser === password) {
+      user = item;
     }
-  };
-  xhr.open("GET", "JSON_Data.json");
-  xhr.send();
-  return true;
+  });
+  return user;
 }
