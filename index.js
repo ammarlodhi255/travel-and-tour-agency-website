@@ -34,6 +34,8 @@ searchBtn.onclick = () => {
 };
 
 function SearchPackages(searchText) {
+  searchText = searchText.toLowerCase();
+
   let container = document.querySelector(".main-section");
   container.innerHTML = "<br /><br />";
   container.classList.add("container");
@@ -41,16 +43,6 @@ function SearchPackages(searchText) {
   let h1 = document.createElement("h1");
   h1.innerText = `Searched text is \'${searchText}\'`;
   container.append(h1);
-
-  let searchclosebtn = document.createElement("a");
-  searchclosebtn.innerText = "Close";
-  searchclosebtn.classList.add("btn");
-  searchclosebtn.classList.add("btn-book");
-  searchclosebtn.style.float = "right";
-  searchclosebtn.onclick = ()=> {
-    document.location.reload();
-  };
-  container.append(searchclosebtn);
   container.innerHTML += "<br />";
 
   let divInside = document.createElement("div");
@@ -61,10 +53,9 @@ function SearchPackages(searchText) {
     if (xhr.readyState === 4 && xhr.status === 200) {
       let packages = JSON.parse(xhr.responseText).Packages;
       packages.forEach(function (item) {
-        if (
-          item.Title.search(searchText) != -1 ||
-          item.Description.search(searchText) != -1
-        ) {
+        let title = item.Title.toLowerCase();
+        let desc = item.Description.toLowerCase();
+        if (title.search(searchText) != -1 || desc.search(searchText) != -1) {
           setValues(item, divInside);
         }
       });
