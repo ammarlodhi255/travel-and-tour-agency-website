@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./profile.css" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="outer-block">
+      <div onclick="history.back()" class="close-btn">&times;</div>
+      <section class="profile-body">
+        <div>
+          <img id="dp" src="" alt="profile image" />
+        </div>
+        <br />
+        <div class="side-block">
+          <div>
+            <label for="name">Name:</label>
+            <h1 id="name"></h1>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <h1 id="email"></h1>
+          </div>
+          <div>
+            <label for="phone">Phone:</label>
+            <h1 id="phone"></h1>
+          </div>
+          <div>
+            <label for="password">Password:</label>
+            <h1 id="password"></h1>
+          </div>
+          <div class="profile-element">
+            <button class="signout">Sign Out</button>
+          </div>
+          <div class="profile-element">
+            <button class="delete">Delete my account</button>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script type="text/javascript" src="./profile.js"></script>
+  </body>
+</html>
