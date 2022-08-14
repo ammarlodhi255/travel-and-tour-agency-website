@@ -32,3 +32,17 @@ function delete_account() {
 function back_to_home() {
   document.location.href = "./home.html";
 }
+
+let coverPreview = document.getElementById("dp");
+let cover = document.getElementById("cover");
+
+coverPreview.addEventListener("click", (_) => cover.click());
+
+cover.addEventListener("change", (_) => {
+  let file = cover.files[0];
+  let reader = new FileReader();
+  reader.onload = function () {
+    coverPreview.src = reader.result;
+  };
+  reader.readAsDataURL(file);
+});
