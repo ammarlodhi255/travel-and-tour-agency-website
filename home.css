@@ -3,8 +3,6 @@
 }
 
 .navbar {
-  background-image: url("./images/navpic.png");
-  background-size: cover;
   z-index: 150;
 }
 
