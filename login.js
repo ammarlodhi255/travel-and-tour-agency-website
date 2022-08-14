@@ -15,7 +15,7 @@ loginBtn.onclick = () => {
   } else {
     let user = Validate(email.value, password.value);
     if (user) {
-      localStorage.setItem("temp", JSON.stringify(user));
+      sessionStorage.setItem("temp", JSON.stringify(user));
       document.location.href = "./Profile.html";
     } else {
       email.style.border = "1px solid red";
