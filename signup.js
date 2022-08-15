@@ -11,7 +11,7 @@ signupBtn.onclick = () => {
     Email: email.value,
     Phone: phone.value,
     Password: password.value,
-  }
+  };
   let users = JSON.parse(localStorage.getItem("Users"));
   users.push(new_user);
   localStorage.setItem("Users", JSON.stringify(users));
@@ -27,3 +27,7 @@ signupBtn.onclick = () => {
   phone.value = "";
   password.value = "";
 };
+
+function openLoginForm() {
+  document.location.href = "./login.html";
+}

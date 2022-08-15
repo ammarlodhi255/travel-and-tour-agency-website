@@ -9,10 +9,11 @@
   </head>
   <body>
     <div class="outer-block">
-      <div onclick="history.back()" class="close-btn">&times;</div>
+      <div onclick="back_to_home()" class="close-btn">&times;</div>
       <section class="profile-body">
         <div>
           <img id="dp" src="" alt="profile image" />
+          <input type="file" id="cover" />
         </div>
         <br />
         <div class="side-block">
@@ -33,10 +34,12 @@
             <h1 id="password"></h1>
           </div>
           <div class="profile-element">
-            <button class="signout">Sign Out</button>
+            <button class="signout" onclick="sign_out()">Sign Out</button>
           </div>
           <div class="profile-element">
-            <button class="delete">Delete my account</button>
+            <button class="delete" onclick="delete_account()">
+              Delete my account
+            </button>
           </div>
         </div>
       </section>
