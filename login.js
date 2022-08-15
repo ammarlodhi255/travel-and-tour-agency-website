@@ -36,3 +36,6 @@ function Validate(email, password) {
   });
   return user;
 }
+function gotoHome() {
+  document.location.href = "./home.html"
+}
