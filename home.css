@@ -8,8 +8,8 @@
 
 .navbar-collapse {
   position: fixed;
-  left: 63%;
-  top: 1%;
+  left: 60%;
+  /* top: 1%; */
 }
 
 @media screen and (max-width: 1000px) {
